@@ -65,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607364100476</updated>
       <workItem from="1607364101518" duration="332000" />
-      <workItem from="1607364468139" duration="861000" />
+      <workItem from="1607364468139" duration="1532000" />
     </task>
     <servers />
   </component>
@@ -73,18 +73,24 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="448" y="270" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607365440256">
+      <screen x="43" y="23" width="1397" height="877" />
+    </state>
+    <state x="448" y="270" key="#com.intellij.fileTypes.FileTypeChooser/43.23.1397.877@43.23.1397.877" timestamp="1607365440256" />
     <state x="479" y="223" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1607364898590">
       <screen x="42" y="23" width="1398" height="877" />
     </state>
     <state x="479" y="223" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/42.23.1398.877@42.23.1398.877" timestamp="1607364898590" />
-    <state x="467" y="194" key="NewPhpClassDialog" timestamp="1607364772294">
-      <screen x="42" y="23" width="1398" height="877" />
+    <state x="468" y="194" key="NewPhpClassDialog" timestamp="1607365361217">
+      <screen x="43" y="23" width="1397" height="877" />
     </state>
     <state x="467" y="194" key="NewPhpClassDialog/42.23.1398.877@42.23.1398.877" timestamp="1607364772294" />
-    <state x="560" y="392" key="NewPhpFileDialog" timestamp="1607364640336">
-      <screen x="42" y="23" width="1398" height="877" />
+    <state x="468" y="194" key="NewPhpClassDialog/43.23.1397.877@43.23.1397.877" timestamp="1607365361217" />
+    <state x="561" y="392" key="NewPhpFileDialog" timestamp="1607365445278">
+      <screen x="43" y="23" width="1397" height="877" />
     </state>
     <state x="560" y="392" key="NewPhpFileDialog/42.23.1398.877@42.23.1398.877" timestamp="1607364640336" />
+    <state x="561" y="392" key="NewPhpFileDialog/43.23.1397.877@43.23.1397.877" timestamp="1607365445278" />
     <state x="442" y="187" width="598" height="548" key="find.popup" timestamp="1607365273885">
       <screen x="43" y="23" width="1397" height="877" />
     </state>

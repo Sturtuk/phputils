@@ -3,9 +3,9 @@
     "description": "Bunch of php utils",
     "type": "library",
     "require": {
-        "illuminate/console": "^8.17",
-        "illuminate/database": "^8.17",
-        "illuminate/support": "^8.17",
+        "illuminate/console": "^v7.29.3",
+        "illuminate/database": "^v7.29.3",
+        "illuminate/support": "^v7.28.0",
         "jackpopp/geodistance": "^1.2",
         "spatie/eloquent-sortable": "^3.10",
         "spatie/laravel-sluggable": "^2.6",

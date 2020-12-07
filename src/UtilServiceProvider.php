@@ -25,6 +25,11 @@ class UtilServiceProvider extends ServiceProvider
         $this->app->singleton('sturt.addresses.address', $addressModel = $this->app['config']['sturt.addresses.models.address']);
         $addressModel === Address::class || $this->app->alias('sturt.addresses.address', Address::class);
 
+        $this->publishes([$this->app_path.'/database' => base_path('database')],'sturt_migration');
+        $this->mergeConfigFrom(
+            $this->app_path.'/configs/sturt.php', 'sturt'
+        );
+
     }
     /**
      * Register the application services.
@@ -33,8 +38,10 @@ class UtilServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->publishesConfig('sturtuk/phputils');
-        $this->publishesMigrations('sturtuk/phputils');
-        ! $this->autoloadMigrations('sturtuk/phputils') || $this->loadMigrationsFrom(__DIR__.'/../../database/migrations');
+
+        $this->mergeConfigFrom(
+            $this->app_path.'/configs/sturt.php', 'sturt'
+        );
+
     }
 }

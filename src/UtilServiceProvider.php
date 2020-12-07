@@ -27,7 +27,7 @@ class UtilServiceProvider extends ServiceProvider
 
         $this->publishes([$this->app_path.'/database' => base_path('database')],'sturt_migration');
         $this->mergeConfigFrom(
-            $this->app_path.'/configs/sturt.php', 'sturt'
+            $this->app_path.'/config/sturt.php', 'sturt'
         );
 
     }
@@ -40,7 +40,7 @@ class UtilServiceProvider extends ServiceProvider
     {
 
         $this->mergeConfigFrom(
-            $this->app_path.'/configs/sturt.php', 'sturt'
+            $this->app_path.'/config/sturt.php', 'sturt'
         );
 
     }

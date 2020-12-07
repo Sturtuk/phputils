@@ -4,12 +4,10 @@ namespace sturtuk\phputils;
 
 use Illuminate\Support\ServiceProvider;
 use sturtuk\phputils\Models\Address;
-use sturtuk\phputils\Traits\ConsoleTools;
 
 class UtilServiceProvider extends ServiceProvider
 {
 
-    use ConsoleTools;
     protected $app_path = __DIR__;
 
     /**

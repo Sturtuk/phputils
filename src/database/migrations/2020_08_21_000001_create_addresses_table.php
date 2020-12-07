@@ -10,7 +10,7 @@ class CreateAddressesTable extends Migration
 {
     public function up()
     {
-        Schema::create(config('sturt.addresses.tables.addresses'), function (Blueprint $table) {
+        Schema::create(config('sturt.tables.addresses'), function (Blueprint $table) {
             // Columns
             $table->increments('id');
             $table->string('label')->nullable();

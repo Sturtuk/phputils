@@ -4,6 +4,6 @@ Route::group([
     'middleware' => ['guest']
 ], function () {
 
-    Route::post('AddressController/getList', 'AddressController@createAddress');
+    Route::get('address/test', 'AddressController@createAddress');
 
 });

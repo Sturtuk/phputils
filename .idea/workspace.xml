@@ -60,6 +60,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -76,7 +77,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607364100476</updated>
       <workItem from="1607364101518" duration="332000" />
-      <workItem from="1607364468139" duration="4307000" />
+      <workItem from="1607364468139" duration="5088000" />
     </task>
     <servers />
   </component>
@@ -88,17 +89,21 @@
       <screen x="43" y="23" width="1397" height="877" />
     </state>
     <state x="448" y="270" key="#com.intellij.fileTypes.FileTypeChooser/43.23.1397.877@43.23.1397.877" timestamp="1607365440256" />
-    <state x="480" y="223" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1607366603338">
+    <state x="529" y="150" key="#com.intellij.ide.util.MemberChooser" timestamp="1607369561580">
+      <screen x="44" y="23" width="1396" height="877" />
+    </state>
+    <state x="529" y="150" key="#com.intellij.ide.util.MemberChooser/44.23.1396.877@44.23.1396.877" timestamp="1607369561580" />
+    <state x="480" y="223" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1607369554421">
       <screen x="44" y="23" width="1396" height="877" />
     </state>
     <state x="479" y="223" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/42.23.1398.877@42.23.1398.877" timestamp="1607364898590" />
-    <state x="480" y="223" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/44.23.1396.877@44.23.1396.877" timestamp="1607366603338" />
-    <state x="469" y="194" key="NewPhpClassDialog" timestamp="1607366582877">
+    <state x="480" y="223" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/44.23.1396.877@44.23.1396.877" timestamp="1607369554421" />
+    <state x="469" y="194" key="NewPhpClassDialog" timestamp="1607369511010">
       <screen x="44" y="23" width="1396" height="877" />
     </state>
     <state x="467" y="194" key="NewPhpClassDialog/42.23.1398.877@42.23.1398.877" timestamp="1607364772294" />
     <state x="468" y="194" key="NewPhpClassDialog/43.23.1397.877@43.23.1397.877" timestamp="1607365361217" />
-    <state x="469" y="194" key="NewPhpClassDialog/44.23.1396.877@44.23.1396.877" timestamp="1607366582877" />
+    <state x="469" y="194" key="NewPhpClassDialog/44.23.1396.877@44.23.1396.877" timestamp="1607369511010" />
     <state x="561" y="392" key="NewPhpFileDialog" timestamp="1607365445278">
       <screen x="43" y="23" width="1397" height="877" />
     </state>

@@ -29,6 +29,8 @@ class UtilServiceProvider extends ServiceProvider
             $this->app_path.'/config/sturt.php', 'sturt'
         );
 
+        $this->loadRoutesFrom($this->app_path . '/routes.php');
+
     }
     /**
      * Register the application services.

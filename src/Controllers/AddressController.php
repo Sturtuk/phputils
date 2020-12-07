@@ -4,7 +4,7 @@
 namespace sturtuk\phputils\Controllers;
 
 
-use Illuminate\Support\Facades\Request;
+use Illuminate\Http\Request;
 use sturtuk\phputils\Traits\Addressable;
 
 class AddressController

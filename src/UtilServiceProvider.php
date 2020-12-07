@@ -33,8 +33,8 @@ class UtilServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->publishesConfig('sturt/phputils');
-        $this->publishesMigrations('sturt/phputils');
-        ! $this->autoloadMigrations('sturt/phputils') || $this->loadMigrationsFrom(__DIR__.'/../../database/migrations');
+        $this->publishesConfig('sturtuk/phputils');
+        $this->publishesMigrations('sturtuk/phputils');
+        ! $this->autoloadMigrations('sturtuk/phputils') || $this->loadMigrationsFrom(__DIR__.'/../../database/migrations');
     }
 }

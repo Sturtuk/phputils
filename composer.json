@@ -1,0 +1,30 @@
+{
+    "name": "sturtuk/phputils",
+    "description": "Bunch of php utils",
+    "type": "library",
+    "require": {
+        "illuminate/console": "^8.17",
+        "illuminate/database": "^8.17",
+        "illuminate/support": "^8.17",
+        "jackpopp/geodistance": "^1.2",
+        "spatie/eloquent-sortable": "^3.10",
+        "spatie/laravel-sluggable": "^2.6",
+        "spatie/laravel-translatable": "^4.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "sturtuk\\phputils\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "sturtuk\\phputils\\UtilServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "license": "MIT"
+}

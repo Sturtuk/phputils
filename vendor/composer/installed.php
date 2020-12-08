@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '628c5f92bb929595c38c23d92aa0f40f0030b68e',
+    'reference' => 'c8c5baf9a6c05b2d0838de4e7fa45fc74bfcccd9',
     'name' => 'sturtuk/phputils',
   ),
   'versions' => 
@@ -219,7 +219,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '628c5f92bb929595c38c23d92aa0f40f0030b68e',
+      'reference' => 'c8c5baf9a6c05b2d0838de4e7fa45fc74bfcccd9',
     ),
     'symfony/console' => 
     array (

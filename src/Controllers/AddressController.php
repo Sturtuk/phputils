@@ -2,6 +2,8 @@
 namespace sturtuk\phputils\Controllers;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Http\Request;
+use sturtuk\phputils\Models\Address;
 use sturtuk\phputils\Requests\AddressFindByRadiusValidator;
 use sturtuk\phputils\Requests\AddressValidator;
 use sturtuk\phputils\Traits\Addressable;
@@ -32,6 +34,19 @@ class AddressController extends BaseUtilController
             'address'   =>  $address
         ]);
 
+    }
+
+    public function listAllAddress(Request $request){
+        $address = Address::whereAddressableType('App\Models\User')
+        ->whereAddressableId($request->user()->id)
+        ->get();
+        if($address){
+            return $this->successResponse([
+                'address'   =>  $address
+            ]);
+        } else {
+            return $this->errorResponse('no address found');
+        }
     }
 
     public function find($id){

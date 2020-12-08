@@ -14,12 +14,12 @@ class InstalledVersions
 private static $installed = array (
   'root' => 
   array (
-    'pretty_version' => '1.0.0+no-version-set',
-    'version' => '1.0.0.0',
+    'pretty_version' => 'dev-master',
+    'version' => 'dev-master',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => '628c5f92bb929595c38c23d92aa0f40f0030b68e',
     'name' => 'sturtuk/phputils',
   ),
   'versions' => 
@@ -35,8 +35,8 @@ private static $installed = array (
     ),
     'illuminate/collections' => 
     array (
-      'pretty_version' => 'v8.17.2',
-      'version' => '8.17.2.0',
+      'pretty_version' => 'v8.18.0',
+      'version' => '8.18.0.0',
       'aliases' => 
       array (
       ),
@@ -44,8 +44,8 @@ private static $installed = array (
     ),
     'illuminate/console' => 
     array (
-      'pretty_version' => 'v8.17.2',
-      'version' => '8.17.2.0',
+      'pretty_version' => 'v8.18.0',
+      'version' => '8.18.0.0',
       'aliases' => 
       array (
       ),
@@ -53,8 +53,8 @@ private static $installed = array (
     ),
     'illuminate/container' => 
     array (
-      'pretty_version' => 'v8.17.2',
-      'version' => '8.17.2.0',
+      'pretty_version' => 'v8.18.0',
+      'version' => '8.18.0.0',
       'aliases' => 
       array (
       ),
@@ -62,8 +62,8 @@ private static $installed = array (
     ),
     'illuminate/contracts' => 
     array (
-      'pretty_version' => 'v8.17.2',
-      'version' => '8.17.2.0',
+      'pretty_version' => 'v8.18.0',
+      'version' => '8.18.0.0',
       'aliases' => 
       array (
       ),
@@ -71,30 +71,57 @@ private static $installed = array (
     ),
     'illuminate/database' => 
     array (
-      'pretty_version' => 'v8.17.2',
-      'version' => '8.17.2.0',
+      'pretty_version' => 'v8.18.0',
+      'version' => '8.18.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => '1ce3cd597b3907ae543987a807c10718ed03c3d4',
+      'reference' => 'fc69ad44c706dc77a88ff442e7554dd35aa9d9bd',
+    ),
+    'illuminate/filesystem' => 
+    array (
+      'pretty_version' => 'v8.18.0',
+      'version' => '8.18.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '5d9154c2aa6a834fbee909d3e76c34b4e5de339d',
+    ),
+    'illuminate/http' => 
+    array (
+      'pretty_version' => 'v8.18.0',
+      'version' => '8.18.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '2195793f2539c77ef6cef503dd9d3125ac180365',
     ),
     'illuminate/macroable' => 
     array (
-      'pretty_version' => 'v8.17.2',
-      'version' => '8.17.2.0',
+      'pretty_version' => 'v8.18.0',
+      'version' => '8.18.0.0',
       'aliases' => 
       array (
       ),
       'reference' => '300aa13c086f25116b5f3cde3ca54ff5c822fb05',
     ),
-    'illuminate/support' => 
+    'illuminate/session' => 
     array (
-      'pretty_version' => 'v8.17.2',
-      'version' => '8.17.2.0',
+      'pretty_version' => 'v8.18.0',
+      'version' => '8.18.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'c8910d52254408c7245dd8044fb3e5b09292673f',
+      'reference' => 'adec55301631cba66f22fe3eb5b7ed95e28b4f43',
+    ),
+    'illuminate/support' => 
+    array (
+      'pretty_version' => 'v8.18.0',
+      'version' => '8.18.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '4831dd18b35f030418d2c0e570a218915258ed38',
     ),
     'jackpopp/geodistance' => 
     array (
@@ -129,6 +156,31 @@ private static $installed = array (
       array (
         0 => '1.0',
       ),
+    ),
+    'psr/event-dispatcher' => 
+    array (
+      'pretty_version' => '1.0.0',
+      'version' => '1.0.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'dbefd12671e8a14ec7f180cab83036ed26714bb0',
+    ),
+    'psr/event-dispatcher-implementation' => 
+    array (
+      'provided' => 
+      array (
+        0 => '1.0',
+      ),
+    ),
+    'psr/log' => 
+    array (
+      'pretty_version' => '1.1.3',
+      'version' => '1.1.3.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '0f73288fd15629204f9d42b7055f72dacbe811fc',
     ),
     'psr/log-implementation' => 
     array (
@@ -175,12 +227,12 @@ private static $installed = array (
     ),
     'sturtuk/phputils' => 
     array (
-      'pretty_version' => '1.0.0+no-version-set',
-      'version' => '1.0.0.0',
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => '628c5f92bb929595c38c23d92aa0f40f0030b68e',
     ),
     'symfony/console' => 
     array (
@@ -190,6 +242,94 @@ private static $installed = array (
       array (
       ),
       'reference' => '3e0564fb08d44a98bd5f1960204c958e57bd586b',
+    ),
+    'symfony/deprecation-contracts' => 
+    array (
+      'pretty_version' => 'v2.2.0',
+      'version' => '2.2.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '5fa56b4074d1ae755beb55617ddafe6f5d78f665',
+    ),
+    'symfony/error-handler' => 
+    array (
+      'pretty_version' => 'v5.2.0',
+      'version' => '5.2.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '289008c5be039e39908d33ae0a8ac99be1210bba',
+    ),
+    'symfony/event-dispatcher' => 
+    array (
+      'pretty_version' => 'v5.2.0',
+      'version' => '5.2.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'aa13a09811e6d2ad43f8fb336bebdb7691d85d3c',
+    ),
+    'symfony/event-dispatcher-contracts' => 
+    array (
+      'pretty_version' => 'v2.2.0',
+      'version' => '2.2.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '0ba7d54483095a198fa51781bc608d17e84dffa2',
+    ),
+    'symfony/event-dispatcher-implementation' => 
+    array (
+      'provided' => 
+      array (
+        0 => '2.0',
+      ),
+    ),
+    'symfony/finder' => 
+    array (
+      'pretty_version' => 'v5.2.0',
+      'version' => '5.2.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'fd8305521692f27eae3263895d1ef1571c71a78d',
+    ),
+    'symfony/http-client-contracts' => 
+    array (
+      'pretty_version' => 'v2.3.1',
+      'version' => '2.3.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '41db680a15018f9c1d4b23516059633ce280ca33',
+    ),
+    'symfony/http-foundation' => 
+    array (
+      'pretty_version' => 'v5.2.0',
+      'version' => '5.2.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'e4576271ee99123aa59a40564c7b5405f0ebd1e6',
+    ),
+    'symfony/http-kernel' => 
+    array (
+      'pretty_version' => 'v5.2.0',
+      'version' => '5.2.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '38907e5ccb2d9d371191a946734afc83c7a03160',
+    ),
+    'symfony/mime' => 
+    array (
+      'pretty_version' => 'v5.2.0',
+      'version' => '5.2.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '05f667e8fa029568964fd3bec6bc17765b853cc5',
     ),
     'symfony/polyfill-ctype' => 
     array (
@@ -209,6 +349,15 @@ private static $installed = array (
       ),
       'reference' => 'c7cf3f858ec7d70b89559d6e6eb1f7c2517d479c',
     ),
+    'symfony/polyfill-intl-idn' => 
+    array (
+      'pretty_version' => 'v1.20.0',
+      'version' => '1.20.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '3b75acd829741c768bc8b1f84eb33265e7cc5117',
+    ),
     'symfony/polyfill-intl-normalizer' => 
     array (
       'pretty_version' => 'v1.20.0',
@@ -226,6 +375,15 @@ private static $installed = array (
       array (
       ),
       'reference' => '39d483bdf39be819deabf04ec872eb0b2410b531',
+    ),
+    'symfony/polyfill-php72' => 
+    array (
+      'pretty_version' => 'v1.20.0',
+      'version' => '1.20.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'cede45fcdfabdd6043b3592e83678e42ec69e930',
     ),
     'symfony/polyfill-php73' => 
     array (
@@ -296,6 +454,15 @@ private static $installed = array (
       array (
         0 => '2.0',
       ),
+    ),
+    'symfony/var-dumper' => 
+    array (
+      'pretty_version' => 'v5.2.0',
+      'version' => '5.2.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '173a79c462b1c81e1fa26129f71e41333d846b26',
     ),
     'voku/portable-ascii' => 
     array (
